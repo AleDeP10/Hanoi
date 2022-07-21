@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Hanoi",
+    "slug": "Hanoi",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
