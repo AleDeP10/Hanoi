@@ -2,6 +2,11 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { configureStore } from '@reduxjs/toolkit'
+import rootReducer from './redux/rootReducer'
+
+const store = configureStore(rootReducer);
+
 export default function App() {
   return (
     <View style={styles.container}>
